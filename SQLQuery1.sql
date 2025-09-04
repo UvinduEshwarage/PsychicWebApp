@@ -48,6 +48,7 @@ CREATE TABLE orders (
     CHECK (orderstatus IN ('pending', 'processing', 'shipped', 'delivered', 'cancelled'))
 );
 
+
 CREATE TABLE category (
     category_id INT PRIMARY KEY AUTO_INCREMENT,
     category_name VARCHAR(30)
